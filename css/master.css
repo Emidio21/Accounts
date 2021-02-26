@@ -1,0 +1,150 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #fff;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Container */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* COLORED SECTION */
+.colored-section{
+  background-color: #49CDD7;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* NAVBAR SECTION */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+#title {
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 35%;
+  transform: rotate(10deg);
+  position: absolute;
+  right: 20%;
+  top: 20%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #49CDD7;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #0294A9;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #0294A9;
+}
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  color: black;
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
