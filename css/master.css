@@ -10,7 +10,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #fff;
+  padding-top: 0.1rem;
+  color: #000;
 }
 
 /* Buttons */
@@ -57,7 +58,7 @@ p {
   font-family: 'Fredoka One', cursive;
   font-size: 2rem;
   font-weight: bold;
-  color: #fff
+  color: #fff;
 }
 
 .nav-item {
@@ -145,6 +146,8 @@ p {
 
   .title-image {
     position: static;
+    width: 100%;
+    margin-top: 10px;
     transform: rotate(0);
   }
 }
